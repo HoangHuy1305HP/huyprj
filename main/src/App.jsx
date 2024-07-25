@@ -3,7 +3,8 @@ import NavBar from './Components/NavBar';
 import Header from './Components/Header';
 import FilterSidebar from './Components/FilterSidebar';
 import Search from './Components/Search';
-import Result from './Components/Result'
+import Result from './Components/Result';
+import CarList from './Components/Card/CarList';
 import './App.css'
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
       </Header>
       <main style={{ display: 'flex' ,background:'black',width:'100%'}}>
         <FilterSidebar /> 
-        <div style={{display:'flex', flexDirection:'column',width:'371px',height:'1312px',margin:'148px'}}>
+        <div style={{display:'flex', flexDirection:'column',margin:'148px'}}>
           <Search></Search>
           <Result></Result>
+          <CarList></CarList>
         </div>
       </main>
     </div>

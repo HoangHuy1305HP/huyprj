@@ -1,11 +1,11 @@
 .result {
+    position: relative;
     margin-top:20px;
     display: flex;
     justify-content: space-around;
     width:761px;
     height:36px;
-    top:230px;
-    right:620px
+    bottom:10px;
 }
 .result h1 {
     display: flex;
